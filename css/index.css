@@ -46,22 +46,6 @@ main {
   align-items: center;
 }
 
-.profile-button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 40px;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-  margin-bottom: 30px;
-}
-
-.profile-button:hover {
-  background-color: #45a049;
-}
-
 .image-container {
   display: flex;
   justify-content: center;
@@ -79,5 +63,3 @@ main {
 h1 {
   display: none;
 }
-
-/* This is a test comment to force GitHub update */
