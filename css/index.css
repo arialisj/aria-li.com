@@ -1,0 +1,64 @@
+/* index.css - Styles for the Landing Page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 30px; /* Adds spacing below the header */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px; /* Adds spacing between navigation links */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  margin: 50px auto; /* Adds more margin around the content */
+  padding: 40px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  max-width: 900px; /* Matches the profile page width */
+  text-align: center; /* Centers the content */
+}
+
+.profile-button {
+  background-color: #4CAF50; /* Green background */
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 20px 5px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.profile-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+img {
+  display: block;
+  margin: 30px auto;
+  border-radius: 8px; /* Slightly rounded image corners */
+}
