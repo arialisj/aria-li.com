@@ -4,13 +4,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  text-align: center;
 }
 
 header {
   background-color: #333;
   color: white;
   padding: 20px 0;
-  margin-bottom: 30px; /* Adds spacing below the header */
+  margin-bottom: 40px; /* Adds space below header */
 }
 
 nav ul {
@@ -21,44 +22,60 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 20px; /* Adds spacing between navigation links */
+  margin: 0 20px;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
+  font-size: 18px;
 }
 
 main {
-  margin: 50px auto; /* Adds more margin around the content */
+  max-width: 900px; /* Make it as wide as the profile page */
+  margin: 60px auto; /* Centers everything */
   padding: 40px;
   background: white;
   border-radius: 8px;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
-  max-width: 900px; /* Matches the profile page width */
-  text-align: center; /* Centers the content */
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .profile-button {
-  background-color: #4CAF50; /* Green background */
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 40px;
-  text-align: center;
-  text-decoration: none;
   font-size: 18px;
-  margin: 20px 5px;
   cursor: pointer;
   border-radius: 6px;
   transition: background-color 0.3s ease;
+  margin-bottom: 30px;
 }
 
 .profile-button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049;
 }
 
-img {
-  display: block;
-  margin: 30px auto;
-  border-radius: 8px; /* Slightly rounded image corners */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 500px; /* Ensure the image is a reasonable size */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* REMOVE EXTRA HEADER */
+h1 {
+  display: none;
 }
