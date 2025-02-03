@@ -19,12 +19,14 @@
   </header>
 
   <main>
-    <a href="profile.html">
-      <button class="profile-button">Go to My Profile</button>
-    </a>
+    <div class="content-container">
+      <a href="profile.html">
+        <button class="profile-button">Go to My Profile</button>
+      </a>
 
-    <div style="display: flex; align-items: center; justify-content: center;">
-      <img src="grad-photo" alt="grad-photo" width="400">
+      <div class="image-container">
+        <img src="grad-photo" alt="Graduation Photo" class="profile-image">
+      </div>
     </div>
   </main>
 </body>
