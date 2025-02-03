@@ -10,9 +10,8 @@ body {
 header {
   background-color: #333;
   color: white;
-  padding: 10px 0; /* Matches the profile page */
+  padding: 10px 0; /* Matches profile page */
 }
-
 
 nav ul {
   list-style: none;
@@ -32,9 +31,8 @@ nav ul li a {
   font-size: 18px;
 }
 
-
 main {
-  max-width: 900px; /* Make it as wide as the profile page */
+  max-width: 900px; /* Match profile page width */
   margin: 60px auto; /* Centers everything */
   padding: 40px;
   background: white;
