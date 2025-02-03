@@ -10,9 +10,9 @@ body {
 header {
   background-color: #333;
   color: white;
-  padding: 20px 0;
-  margin-bottom: 40px; /* Adds space below header */
+  padding: 10px 0; /* Matches the profile page */
 }
+
 
 nav ul {
   list-style: none;
